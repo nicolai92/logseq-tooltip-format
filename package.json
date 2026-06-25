@@ -1,0 +1,23 @@
+{
+    "name": "logseq-format",
+    "version": "0.3.0",
+    "description": "Floating formatter for selected Logseq text.",
+    "main": "dist/index.html",
+    "scripts": {
+        "dev": "vite --host 0.0.0.0",
+        "build": "vite build"
+    },
+    "dependencies": {
+        "@logseq/libs": "latest"
+    },
+    "devDependencies": {
+        "typescript": "latest",
+        "vite": "latest"
+    },
+    "logseq": {
+        "id": "logseq-format",
+        "title": "Logseq Format",
+        "icon": "icon.svg",
+        "main": "dist/index.html"
+    }
+}
